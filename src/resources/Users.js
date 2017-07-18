@@ -4,7 +4,7 @@ import { Create, Edit, SimpleForm, DisabledInput, NumberInput,
          TextInput, BooleanField, Datagrid, List, NumberField,
          BooleanInput, TextField, DeleteButton, EditButton } from 'admin-on-rest';
 
-export const UsersCreate = (props) => (
+export const usersCreate = (props) => (
   <Create {...props}>
     <SimpleForm>
     
@@ -16,7 +16,7 @@ export const UsersCreate = (props) => (
   </Create>
 );
 
-export const UsersEdit = (props) => (
+export const usersEdit = (props) => (
   <Edit title={'Edit Todo'} {...props}>
     <SimpleForm>
       <DisabledInput label="Id" source="id" />
@@ -29,7 +29,7 @@ export const UsersEdit = (props) => (
   </Edit>
 );
 
-export const UsersList = (props) => (
+export const usersList = (props) => (
   <List {...props}>
     <Datagrid>
     
